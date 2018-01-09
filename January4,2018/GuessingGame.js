@@ -42,11 +42,12 @@ function guess(e) {
 }
 
 function changeColor(){
-  var red = Math.floor(Math.random() * 255)
-  var green = Math.floor(Math.random() * 255)
-  var blue = Math.floor(Math.random() * 255)
+//  var red = Math.floor(Math.random() * 255)
+//  var green = Math.floor(Math.random() * 255)
+//  var blue = Math.floor(Math.random() * 255)
 
- document.body.style.background = `rgb(${red}, ${green}, ${blue})`
+
+  document.body.style.background = `rgb(${red}, ${green}, ${blue})`
   
 }
 
